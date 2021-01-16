@@ -6,6 +6,9 @@
 - Aeman Fatima
 - Maryam Inam
 
+# Important!
+Due to Spanning Tree Protocol, this project requires at between 5 minutes to 1 hour to start working perfectly. The DHCP takes a lot of time to get applied to all the devices. 
+
 ## Commands Applied on Router
 ```
 en
@@ -61,8 +64,70 @@ en
 		ip dhcp excluded-address 156.16.8.1 156.16.8.10
 		ip dhcp excluded-address 156.16.12.1 156.16.12.10
 		ip dhcp excluded-address 156.16.16.1 156.16.16.10
-        rou rip
-			net 156.16.0.0
-            ex
 ```
+
+## Main switch connections with Ports
+
+### Main Switch
+- C Block FA 0/1 -> FA 0/2
+- H Block FA 0/1 -> FA 0/3
+- Data Center FA 0/1 -> FA 0/4
+- D Block FA 0/1 -> FA 0/5
+- Main Server -> FA 0/6
+
+### Main Switch 2
+- B Block FA 0/2 -> FA 0/1
+- Common Room Port 0 ->  FA 0/2
+- Masjid Port 0 -> FA 0/3
+- Girls Hostel Port 0 -> 2 FA 0/4
+
+### Main Switch 3
+- Architecture FA 0/1 -> FA 0/1
+- IRCBM FA 0/1 -> FA 0/2
+- Phd Block FA 0/1 -> FA 0/3
+- N Block FA 0/1 -> FA 0/4
+
+### Main Switch 4
+- SSC FA 0/1 -> FA 0/1
+- Cafe FA 0/1 -> FA 0/2
+- O Block Port 0 -> FA 0/3
+- GYM Port 0 -> FA 0/4
+
+### Main Switch 5
+- Chemical FA 0/1 -> FA 0/1
+- Pharmacy FA 0/1 -> FA 0/2
+- Library FA 0/1 -> FA 0/3
+- K Block FA 0/1 -> FA 0/4
+- A Block FA 0/1 -> FA 0/6
+
+## Subnetting FLSM IP [156.16.0.0]
+### Main Switch IP's
+- Network: `156.16.0.0`
+- Broadcast: `156.16.3.255`
+- Range: `156.16.0.1` to `156.16.3.254`
+- Subnet Mask: `255.255.252.0`
+
+### Main Switch 2 IP's
+- Network: `156.16.4.0`
+- Broadcast: `156.16.7.255`
+- Range: `156.16.4.1` to `156.16.7.254`
+- Subnet Mask: `255.255.252.0`
+
+### Main Switch 3 IP's
+- Network: `156.16.16.0`
+- Broadcast: `156.16.19.255`
+- Range: `156.16.16.1` to `156.16.19.254`
+- Subnet Mask: `255.255.252.0`
+
+### Main Switch 4 IP's
+- Network: `156.16.12.0`
+- Broadcast: `156.16.15.255`
+- Range: `156.16.12.1` to `156.16.15.254`
+- Subnet Mask: `255.255.252.0`
+
+### Main Switch 5 IP's
+- Network: `156.16.8.0`
+- Broadcast: `156.16.11.255`
+- Range: `156.16.8.1` to `156.16.11.254`
+- Subnet Mask: `255.255.252.0`
 
