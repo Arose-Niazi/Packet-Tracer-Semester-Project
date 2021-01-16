@@ -7,7 +7,8 @@
 - Maryam Inam
 
 # Important!
-Due to Spanning Tree Protocol, this project requires at between 5 minutes to 1 hour to start working perfectly. The DHCP takes a lot of time to get applied to all the devices. 
+- Due to Spanning Tree Protocol, this project requires at between 5 minutes to 1 hour to start working perfectly. The DHCP takes a lot of time to get applied to all the devices. 
+- Know Problem, Wireless devices connect to other AP's in different locations. Reason for this is that we need to maintain the structure in physical aspect of packet tracer which we don't care at the moment as it's not required. The project had very little weightage in our semester. 
 
 ## Commands Applied on Router
 ```
@@ -131,3 +132,5 @@ en
 - Range: `156.16.8.1` to `156.16.11.254`
 - Subnet Mask: `255.255.252.0`
 
+# Images
+![Main Structure](https://github.com/Arose-Niazi/Packet-Tracer-Semester-Project/blob/main/Main.png?raw=true)
