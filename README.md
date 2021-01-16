@@ -132,5 +132,29 @@ en
 - Range: `156.16.8.1` to `156.16.11.254`
 - Subnet Mask: `255.255.252.0`
 
+## Connection Explained
+Router (Server Room C Block)
+- Main Switches (Server Room C Block)
+    - Department Switches
+        - Floor Switches (Multi Floor Structure)
+            - Access Points
+                - Laptops / Mobiles
+            - Lab Switches
+                - Lab PC's
+            - Class PC's
+    - Department Switch (Single Floor Structure)
+        - Access Points
+            - Laptops / Mobiles
+        - Lab Switches
+            - Lab PC's
+        - Class PC's
+
+    - Access Points  (Just wireless netowrk)
+        - Laptops / Mobiles
+
 # Images
 ![Main Structure](https://github.com/Arose-Niazi/Packet-Tracer-Semester-Project/blob/main/Main.png?raw=true)
+![Server Room](https://github.com/Arose-Niazi/Packet-Tracer-Semester-Project/blob/main/Server%20Room.png?raw=true)
+![Department](https://github.com/Arose-Niazi/Packet-Tracer-Semester-Project/blob/main/C%20Block.png?raw=true)
+![Floor](https://github.com/Arose-Niazi/Packet-Tracer-Semester-Project/blob/main/Floor.png?raw=true)
+![Lab](https://github.com/Arose-Niazi/Packet-Tracer-Semester-Project/blob/main/Lab.png?raw=true)
