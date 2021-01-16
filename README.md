@@ -132,6 +132,10 @@ en
 - Range: `156.16.8.1` to `156.16.11.254`
 - Subnet Mask: `255.255.252.0`
 
+## WIFI Settings (Access Points)
+- SSID: Edurem 
+- Password: `12345678`
+
 ## Connection Explained
 Router (Server Room C Block)
 - Main Switches (Server Room C Block)
